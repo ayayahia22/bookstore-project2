@@ -1,0 +1,295 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!--=============== FAVICON ===============-->
+     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+     <!--=============== BOXICONS ===============-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!--=============== SWIPER CSS ===============-->
+     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+     <!--=============== CSS ===============-->
+     <link rel="stylesheet" href="assets/css/styles.css">
+     <title>book store</title>
+ </head>
+
+ <body>
+     <!--==================== HEADER ====================-->
+     <header class="header" id="header">
+         <nav class="nav container">
+             <a href="#" class="nav__logo">
+                <i class="fa fa-book" style="font-size:24px;color:orange"></i> BOOKS
+             </a>
+
+             <div class="nav__menu" id="nav-menu">
+                 <ul class="nav__list">
+                     <li class="nav__item">
+                         <a href="#home" class="nav__link active-link">Home</a>
+                     </li>
+                     <li class="nav__item">
+                         <a href="#featured" class="nav__link">Featured</a>
+                     </li>
+                     <li class="nav__item">
+                         <a href="#products" class="nav__link">books</a>
+                     </li>
+                     <li class="nav__item">
+                         <a href="#new" class="nav__link">categores</a>
+                     </li>
+                 </ul>
+
+                 <div class="nav__close" id="nav-close">
+                    <i class="fa fa-shopping-cart" style="font-size:36px"></i>
+                 </div>
+             </div>
+
+             <div class="nav__btns">
+                 <!-- Theme change button -->
+<!-- search icone -->
+                 <div class="nav__shop" id="cart-shop">
+                    <i id="myButton" class="fa fa-search" style="font-size:24px;color:orange"></i>
+                </div>
+                
+
+
+                 <div class="nav__shop" id="cart-shop">
+                     <i class='bx bx-shopping-bag'></i>
+                 </div>
+
+                 <div class="nav__toggle" id="nav-toggle">
+                     <i class='bx bx-grid-alt'></i>
+                 </div>
+             </div>
+         </nav>
+     </header>
+
+
+     <!--==================== MAIN ====================-->
+     <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home" id="home">
+             <div class="home__container container grid">
+                 <div class="home__img-bg">
+                     <img src="assets/img/featured1.jpeg" alt="" class="home__img">
+                 </div>
+
+                 <div class="home__data">
+                     <h1 class="home__title">NEW book<br> COLLECTIONS 2023</h1>
+                     <p class="home__description">
+                         MODERN FULLSTACK <BR> DEVELOPMENT
+
+                     </p>
+                     <span class="home__price">$12</span>
+
+                     <div class="home__btns">
+                         <a href="#" class="button button--gray button--small">
+                             Discover
+                         </a>
+
+                         <button class="button home__button">ADD TO CART</button>
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+         <!--==================== FEATURED ====================-->
+         <section class="featured section container" id="featured">
+             <h2 class="section__title">
+                 Featured
+             </h2>
+
+             <div class="featured__container grid">
+                 <article class="featured__card">
+                     <span class="featured__tag">Sale</span>
+
+                     <img src="assets/img/5131OWtQRaL._SL350_.jpg" alt="" class="featured__img">
+
+                     <div class="featured__data">
+                         <h3 class="featured__title">javascript<br> the good parts</h3>
+                         <span class="featured__price">$10</span>
+                     </div>
+
+                     <button class="button featured__button">ADD TO CART</button>
+                 </article>
+
+                 <article class="featured__card">
+                     <span class="featured__tag">Sale</span>
+
+                     <img src="assets/img/51W2FBuN0ML._SL500_.jpg" alt="" class="featured__img">
+
+                     <div class="featured__data">
+                         <h3 class="featured__title">javascript<br> interactive</h3>
+                         <span class="featured__price">$25</span>
+                     </div>
+
+                     <button class="button featured__button">ADD TO CART</button>
+                 </article>
+
+                 <article class="featured__card">
+                     <span class="featured__tag">Sale</span>
+
+                     <img src="assets/img/download (1).jpeg" alt="" class="featured__img">
+
+                     <div class="featured__data">
+                         <h3 class="featured__title">Node <br>front-end</h3>
+                         <span class="featured__price">$30</span>
+                     </div>
+
+                     <button class="button featured__button">ADD TO CART</button>
+                 </article>
+             </div>
+         </section>
+
+
+
+         <!--==================== books ====================-->
+         <section class="products section container" id="products">
+             <h2 class="section__title">
+                books
+             </h2>
+
+             <div class="products__container grid">
+                 <article class="products__card">
+                     <img src="assets/img/5131OWtQRaL._SL350_.jpg" alt="" class="products__img">
+
+                     <h3 class="products__title">javascript <br> the good parts</h3>
+                     <span class="products__price">$15</span>
+
+                     <button class="products__button">
+                        <i class="fa fa-shopping-cart" style="font-size:25px;background-color: white; color:  orange;border: none;padding: 10px;"></i>
+                    </button>
+                 </article>
+
+                 <article class="products__card">
+                     <img src="assets/img/2bec2-1nmgugjaqwjled264nbz-ow.png" alt="" class="products__img">
+
+                     <h3 class="products__title">bulding <br> micro-frontend</h3>
+                     <span class="products__price">$25</span>
+
+                     <button class="products__button">
+                        <i class="fa fa-shopping-cart" style="font-size:25px;background-color: white; color:  orange;border: none;padding: 10px;"></i>
+                    </button>
+                 </article>
+
+                 <article class="products__card">
+                     <img src="assets/img/Learn-JavaScript-Programming-3-Books-in-1-The-Best-Beginner-s-Guide-to-Learn-JavaScript-and-Master-Front-End-Back-End-Programming-Paperback-978180235_8dcf26c7-5d69-40da-9994-a78f9b8483ff.c7089255ca0099f00ad77a8c7ecbc391.jpeg"
+                         alt="" class="products__img">
+
+                     <h3 class="products__title">bulding <br> javascript <br>programming</h3>
+                     <span class="products__price">$36</span>
+
+                     <button class="products__button">
+                        <i class="fa fa-shopping-cart" style="font-size:25px;background-color: white; color:  orange;border: none;padding: 10px;"></i>
+                    </button>
+                 </article>
+
+                 <article class="products__card">
+                     <img src="assets/img/frontend-workflow-with-html5-and-sass-book.jpeg" alt="" class="products__img">
+
+                     <h3 class="products__title">Front-end <br> workflow</h3>
+                     <span class="products__price">$65</span>
+
+                     <button class="products__button">
+                        <i class="fa fa-shopping-cart" style="font-size:25px;background-color: white; color:  orange;border: none;padding: 10px;"></i>
+                    </button>
+                 </article>
+
+                 <article class="products__card">
+                     <img src="assets/img/html5-missing_manual.jpeg" alt="" class="products__img">
+
+                     <h3 class="products__title">html5</h3>
+                     <span class="products__price">$30</span>
+
+                     <button class="products__button">
+                        <i class="fa fa-shopping-cart" style="font-size:25px;background-color: white; color:  orange;border: none;padding: 10px;"></i>
+                    </button>
+                 </article>
+             </div>
+         </section>
+
+
+         <!--====================   categores====================-->
+         <section class="new section container" id="new">
+             <h2 class="section__title">
+                categores
+             </h2>
+
+             <div class="new__container">
+                 <div class="swiper new-swiper">
+                     <div class="swiper-wrapper">
+                         <article class="new__card swiper-slide">
+                             <span class="new__tag"> categores</span>
+
+                             <img src="assets/img/EyPZUcKXAAccAHP.jpeg" alt="" class="new__img">
+
+                             <div class="new__data">
+                                 <h3 class="new__title">front-end</h3>
+                                
+                             </div>
+
+                             <button class="button new__button">ADD TO CART</button>
+                         </article>
+
+                         <article class="new__card swiper-slide">
+                             <span class="new__tag">categores</span>
+
+                             <img src="assets/img/GUEST_a72bddf3-9662-422e-8c05-1fb8b0a2fc90.jpeg" alt=""
+                                 class="new__img">
+
+                             <div class="new__data">
+                                 <h3 class="new__title">fullstack</h3>
+                                
+                             </div>
+
+                             <button class="button new__button">ADD TO CART</button>
+                         </article>
+
+                         
+
+                         <article class="new__card swiper-slide">
+                             <span class="new__tag">categores</span>
+
+                             <img src="assets/img/1_1AfPLD59sNgck5zlK2VQgA.jpeg" alt="" class="new__img">
+
+                             <div class="new__data">
+                                 <h3 class="new__title">back-end</h3>
+                                
+                             </div>
+
+                             <button class="button new__button">ADD TO CART</button>
+                         </article>
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+         <!--==================== NEWSLETTER ====================-->
+         <section class="newsletter section container">
+             <div class="newsletter__bg grid">
+                 <div>
+                     <h2 class="newsletter__title">Subscribe Our <br> Newsletter</h2>
+                     <p class="newsletter__description">
+                         Don't miss out on your discounts. Subscribe to our email
+                         newsletter to get the best offers, discounts, coupons,
+                         gifts and much more.
+                     </p>
+                 </div>
+
+                 <form action="" class="newsletter__subscribe">
+                     <input type="email" placeholder="Enter your email" class="newsletter__input">
+                     <button class="button">
+                         SUBSCRIBE
+                     </button>
+                 </form>
+             </div>
+         </section>
+     </main>
+
+     <script src="/assets/js/main.js"></script>
+ </body>
+
+ </html>
